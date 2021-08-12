@@ -3,7 +3,7 @@
   
 
     width: 100vw;
-    height: 100vh;
+    /*height: 100vh;*/
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@
   flex-wrap: wrap;
   max-width: 1280px;
   height: 100%;
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
 
 
 }
@@ -250,4 +250,29 @@
     margin-top: 15px;
   }
   
+}
+
+@media only screen and (min-width:320px) and (max-width:1119px){
+  .content{
+    background: linear-gradient(153deg,#16213e,#16213e 66%,#000);
+    height: auto;
+  }
+  /*.pages-home .title{
+    margin-top: 10%;
+  }*/
+  .btn-home {
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
+}
+@media only screen and (min-width:320px) and (max-width:1768px){
+  .pages-home .title h2{
+    font-size:32px;
+  }
+}
+@media only screen and (min-width:320px) and (max-width:1768px){
+  .pages-home .title h2{
+    font-size:25px;
+  }
 }
