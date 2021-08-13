@@ -23,14 +23,14 @@ const ProdictiveSalesMakerBot = () => {
             <div className="btn-box">
           
             
-            <Link to="/dashboardMakerBoth">
+            <Link to="/dashboardMakerBot">
             <GoReply className="btn-btn">Voltar</GoReply>
             </Link>
 
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Prodictive Sales</h1>
+            <h1>Prodictive Sales MakerBot</h1>
             
             <div className="content">
                <RenderProdictiveSalesMakerBot />

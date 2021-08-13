@@ -25,7 +25,7 @@ const PagesHome = () => {
 
           <div className="box-container">
             <div className="box-logo ">
-              <a href="https://e-crowngroup.com.br/"><img className="ecrown" src="./img/new/ECrown.png" alt="" /></a>
+              <Link to=""><img className="ecrown" src="./img/new/ECrown.png" alt="" /></Link>
 
             </div>
             <div className="box-logo">

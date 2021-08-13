@@ -30,7 +30,7 @@ const ProdictiveSalesHDStore = () => {
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Prodictive Sales</h1>
+            <h1>Prodictive Sales HDStore</h1>
             
             <div className="content">
                <RenderProdictiveSalesHDStore />

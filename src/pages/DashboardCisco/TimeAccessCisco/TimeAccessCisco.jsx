@@ -23,14 +23,14 @@ const TimeAccessCisco= () => {
             <div className="btn-box">
           
             
-            <Link to="/dashboardLogitech">
+            <Link to="/dashboardCisco">
             <GoReply className="btn-btn">Voltar</GoReply>
             </Link>
 
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Time Access</h1>
+            <h1>Time Access Cisco</h1>
             
             <div className="content">
                <RenderTimeAccessCisco />

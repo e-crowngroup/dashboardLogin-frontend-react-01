@@ -30,7 +30,7 @@ const DemographyMakerBot = () => {
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Demography</h1>
+            <h1>Demography MakerBot</h1>
             
             <div className="content">
                <RenderDemographyMakerBot />

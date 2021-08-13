@@ -135,11 +135,11 @@
   }
   @media (min-width: 600px) and (max-width: 1000px){
     .container-dash{
-      height: 100%;
+      height: auto;
     }
   
     .pages-dashboard{
-      height: 100%;
+      height: auto;
    
     }
     .pages-dashboard .title{
@@ -154,7 +154,7 @@
   }
   @media (min-width: 1000px) and (max-width: 1280px) {
     .container-dash{
-      height: 100%;
+      height: auto;
     }
   
   
@@ -174,7 +174,7 @@
   
   @media only screen and (min-width: 1281px) {
     .container-dash{
-      height: 100%;
+      height: auto;
     }
     
     .pages-dashboard{
@@ -187,5 +187,35 @@
     .pages-dashboard .title{
       width: 90%;
       margin-top: 5px;
+    }
+  }
+
+
+  @media only screen and (min-width:320px) and (max-width:1119px){
+    .container-dash{
+      height: auto;
+      
+    }
+    .content-dash{
+      height: auto;
+      overflow: hidden;
+    }
+    /*.pages-home .title{
+      margin-top: 10%;
+    }*/
+    .btn-home {
+      position: absolute;
+      top: 1%;
+      right: 2%;
+  }
+  }
+  @media only screen and (min-width:320px) and (max-width:1768px){
+    .pages-home .title h2{
+      font-size:32px;
+    }
+  }
+  @media only screen and (min-width:320px) and (max-width:1768px){
+    .pages-home .title h2{
+      font-size:25px;
     }
   }

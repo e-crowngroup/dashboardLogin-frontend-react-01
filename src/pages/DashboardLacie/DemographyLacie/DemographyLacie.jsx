@@ -30,7 +30,7 @@ const DemographyLacie = () => {
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Demography</h1>
+            <h1>Demography Lacie</h1>
             
             <div className="content">
                <RenderDemographyLacie />

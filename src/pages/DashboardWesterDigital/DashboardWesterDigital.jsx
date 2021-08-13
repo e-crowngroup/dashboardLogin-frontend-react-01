@@ -113,6 +113,11 @@ const PagesDashboard = () => {
             <h3>Prodictive Stock</h3>
            
            </div>
+           <div className="box-content">
+           
+           <h3>Price Shopping</h3>
+           
+          </div>
             
           </div>
 

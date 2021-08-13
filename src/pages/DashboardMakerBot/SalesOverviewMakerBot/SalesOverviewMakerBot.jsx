@@ -30,7 +30,7 @@ const SalesOverviewMakerBot = () => {
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Sales Overview</h1>
+            <h1>Sales Overview MakerBot</h1>
             
             <div className="content">
                <RenderSalesOverviewMakerBot />

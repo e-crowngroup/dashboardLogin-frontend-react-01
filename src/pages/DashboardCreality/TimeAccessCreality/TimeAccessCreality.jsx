@@ -30,7 +30,7 @@ const TimeAccessCreality= () => {
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Time Access</h1>
+            <h1>Time Access Creality</h1>
             
             <div className="content">
                <RenderTimeAccessCreality />

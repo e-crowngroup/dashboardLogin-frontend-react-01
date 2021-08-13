@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html{
-  height: 100%;
+  height: auto;
   background: linear-gradient(
     153deg
     ,#16213e,#16213e 66%,#000);
@@ -16,7 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
+  height: auto;
   
     background: linear-gradient(
     153deg

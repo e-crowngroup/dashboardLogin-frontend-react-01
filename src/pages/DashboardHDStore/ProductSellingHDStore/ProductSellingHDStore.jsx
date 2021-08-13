@@ -23,14 +23,14 @@ const ProductSellingHDStore = () => {
             <div className="btn-box">
           
             
-            <Link to="/dashboardLogitech">
+            <Link to="/dashboardHDStore">
             <GoReply className="btn-btn">Voltar</GoReply>
             </Link>
 
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Campaign Overview</h1>
+            <h1>Campaign Overview HDStore</h1>
             
             <div className="content">
                <RenderProductSellingHDStore />

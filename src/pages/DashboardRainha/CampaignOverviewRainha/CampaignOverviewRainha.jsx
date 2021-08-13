@@ -30,7 +30,7 @@ const CampaignOverviewRainha = () => {
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Campaign Overview</h1>
+            <h1>Campaign Overview Rainha</h1>
             
             <div className="content">
                <RenderCampaignOverviewRainha />

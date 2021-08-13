@@ -30,7 +30,7 @@ const DemographyMaresia = () => {
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Demography</h1>
+            <h1>Demography Maresia</h1>
             
             <div className="content">
                <RenderDemographyMaresia />

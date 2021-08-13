@@ -30,7 +30,7 @@ const TimeSalesMakerBot = () => {
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Time Sales</h1>
+            <h1>Time Sales MakerBot</h1>
             
             <div className="content">
                <RenderTimeSalesMakerBot />
