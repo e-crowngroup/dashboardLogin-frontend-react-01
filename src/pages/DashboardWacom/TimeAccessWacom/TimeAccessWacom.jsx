@@ -30,7 +30,7 @@ const TimeAccessWacom = () => {
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Time Access</h1>
+            <h1>Time Access Wacom</h1>
             
             <div className="content">
                <RenderTimeAccessWacom />

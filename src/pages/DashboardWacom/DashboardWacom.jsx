@@ -34,27 +34,27 @@ const PagesDashboard = () => {
           <div className="box-container">
             <div className="box-content marketing">
 
-                <Link to="/marketingOverview">
+                <Link className="text-link">
                 <h3>Marketing Overview</h3>
                 </Link>
               
             </div>
 
             <div className="box-content">
-              <Link to="/timeAccess">
+              <Link className="text-link" to="/timeAccessWacom">
               <h3>Time Access</h3>
               </Link>
                 
             
            </div>
            <div className="box-content">
-               <Link to="/campaignOverview">
+               <Link className="text-link" to="/campaignOverviewWacom">
                  <h3>Campaign Overview </h3>
                </Link>
            </div>
 
             <div className="box-content">
-                <Link to="/demography">
+                <Link className="text-link" to="/demographyWacom">
                   <h3>Demography</h3>
                   </Link>
            </div>
@@ -64,13 +64,13 @@ const PagesDashboard = () => {
 
           <div className="box-container">
             <div className="box-content">
-            <Link to="/salesOverview">
+            <Link className="text-link" to="/salesOverviewWacom">
             <h3>Sales Overview</h3>
             </Link>
 
             </div>
             <div className="box-content">
-            <Link to="/timeSales">
+            <Link className="text-link" to="/timeSalesWacom">
             <h3>Time Sales</h3>
             </Link>
            </div>
@@ -82,7 +82,7 @@ const PagesDashboard = () => {
            </div>
 
             <div className="box-content">
-            <Link to="/prodictiveSales">
+            <Link className="text-link" to="/prodictiveSalesWacom">
             <h3>Prodictive Sales</h3>
             </Link>
            </div>

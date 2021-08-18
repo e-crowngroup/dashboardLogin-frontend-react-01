@@ -30,7 +30,7 @@ const SalesOverviewWacom = () => {
             <AiOutlineCloseSquare  className="btn-btn" onClick={() => setToken(null)} />
             </div>
             
-            <h1>Sales Overview</h1>
+            <h1>Sales Overview Wacom</h1>
             
             <div className="content">
                <RenderSalesOverviewWacom />

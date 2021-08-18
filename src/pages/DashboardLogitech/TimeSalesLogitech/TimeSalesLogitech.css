@@ -16,15 +16,7 @@
 
 }
 
-.btn-box {
-    width: 1280px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding: 0 10px 0 10px;
-    
-}
+
 .btn-btn{
         color: #fff;
         width: 30px;
@@ -38,6 +30,15 @@
 .box-container-over h1{
     color: #fff;
 }
+ .text-link{
+     text-decoration: none;
+     color: #fff;
+ }
+ .text-link:hover{
+    text-decoration: none;
+    color: aqua;;
+}
+
 
 
 

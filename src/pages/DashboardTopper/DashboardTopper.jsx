@@ -34,27 +34,27 @@ const PagesDashboard = () => {
           <div className="box-container">
             <div className="box-content marketing">
 
-                <Link to="">
+                <Link className="text-link" >
                 <h3>Marketing Overview</h3>
                 </Link>
               
             </div>
 
             <div className="box-content">
-              <Link to="/timeAccessTopper">
+              <Link className="text-link" to="/timeAccessTopper">
               <h3>Time Access</h3>
               </Link>
                 
             
            </div>
            <div className="box-content">
-               <Link to="/campaignOverviewTopper">
+               <Link className="text-link" to="/campaignOverviewTopper">
                  <h3>Campaign Overview </h3>
                </Link>
            </div>
 
             <div className="box-content">
-                <Link to="/demographyTopper">
+                <Link className="text-link" to="/demographyTopper">
                   <h3>Demography</h3>
                   </Link>
            </div>
@@ -64,13 +64,13 @@ const PagesDashboard = () => {
 
           <div className="box-container">
             <div className="box-content">
-            <Link to="/salesOverviewTopper">
+            <Link className="text-link" to="/salesOverviewTopper">
             <h3>Sales Overview</h3>
             </Link>
 
             </div>
             <div className="box-content">
-            <Link to="/timeSalesTopper">
+            <Link className="text-link" to="/timeSalesTopper">
             <h3>Time Sales</h3>
             </Link>
            </div>
@@ -82,7 +82,7 @@ const PagesDashboard = () => {
            </div>
 
             <div className="box-content">
-            <Link to="/prodictiveSalesTopper">
+            <Link className="text-link" to="/prodictiveSalesTopper">
             <h3>Prodictive Sales</h3>
             </Link>
            </div>
@@ -90,7 +90,7 @@ const PagesDashboard = () => {
           </div>
 
           <div className="box-container">
-            <div className="box-content">
+            <div  className="box-content">
           
             <h3>Stock Overview</h3>
            
